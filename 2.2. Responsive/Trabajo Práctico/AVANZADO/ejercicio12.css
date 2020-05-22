@@ -1,0 +1,86 @@
+@media only screen and (min-width: 140px) {
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    grid-auto-rows: minmax(160px, auto);
+    font-size: 3.5rem;
+    border-color: 1px solid black;
+}
+.fixtureSA{
+    grid-area: 1 / 3 / 1 /1;
+    background-color: grey;
+    font-size: 2.5rem;
+    display: flex;
+    padding-left: 1rem;
+
+
+}
+
+.wrapper .B, .C, .D, .E{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.A{
+    display: none;
+}
+
+.B{
+    grid-area: 2 / 3 / 10 /1;
+}
+
+.C{
+    grid-area: 10 / 1 / 12 /1;
+}
+
+.D{
+    grid-area: 10 / 2 / 12 /2;
+}
+
+.E{
+    grid-area: 15 / 3 / 12 /1;
+}
+}
+
+@media only screen and (min-width: 800px) {
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+    }
+    .fixtureSA{
+        grid-area: 1 / 4 / 1 /1;
+        padding-left: 1rem;
+    }
+    
+    .A{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        color: black;
+    }
+    
+    .A{
+        grid-area: 13 / 2 / 2 /1;
+    }
+    
+    .B{
+        grid-area: 13 / 4 / 2 /2;
+    }
+    
+    .C{
+        grid-area: 16 / 1 / 13 /1;
+    }
+    
+    .D{
+        grid-area: 16 / 2 / 13 /2;
+    }
+    
+    .E{
+        grid-area: 16 / 3 / 13 /3;
+    }
+    }
