@@ -1,0 +1,40 @@
+@media only screen and (min-width: 320px){
+  /* Umbral de cambio */
+  body {
+    /* elemento de cambio */
+    background-color: rgb(255, 0, 43);
+    font-size: 1rem; /* propiedad que cambia */
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* Umbral de cambio */
+  body {
+    /* elemento de cambio */
+    background-color: rgb(221, 192, 255);
+    font-size: 2rem; /* propiedad que cambia */
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* Umbral de cambio */
+  body {
+    /* elemento de cambio */
+    background-color: rgb(192, 255, 247);
+    font-size: 3rem; /* propiedad que cambia */
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* Umbral de cambio */
+  body {
+    /* elemento de cambio */
+    background-color: rgb(255, 243, 192);
+    font-size: 4rem; /* propiedad que cambia */
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* Umbral de cambio */
+  body {
+    /* elemento de cambio */
+    background-color: rgb(240, 192, 255);
+    font-size: 5rem; /* propiedad que cambia */
+  }
+}
