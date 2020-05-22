@@ -1,0 +1,15 @@
+.btn{
+    font-size: 100px;
+    background-color: red;
+    color: white;
+}
+
+html{
+    font-size: 100px;
+
+}
+
+.ruleta{
+    width: 600px;
+    height: 600px;
+}

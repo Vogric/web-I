@@ -1,0 +1,52 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: teal;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+    text-align: center;
+}
+h4{
+    color: tan;
+    align-items: flex-end;
+    font-size: xx-small;
+    font-family: Georgia, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-style: unset;
+    text-align: right;
+}
+.destacado{
+    color: darkslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h2{
+    color: cornflowerblue;
+    font-family: initial;
+    font-size: xx-large;
+    font-style: inherit;
+}
+h3{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+ul{
+    color: mediumspringgreen;
+    font-size: large;
+    font-family: monospace;
+    font-style: italic;
+}
+ol{
+    color: olivedrab;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+p{
+    color: rgb(19, 34, 34);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}

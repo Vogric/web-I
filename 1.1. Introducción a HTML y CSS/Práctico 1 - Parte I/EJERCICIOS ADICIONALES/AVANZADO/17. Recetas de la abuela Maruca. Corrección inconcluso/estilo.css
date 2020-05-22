@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    color: red;
+}
+h2{
+    color: green;
+    font-style: italic;
+}
+h3{
+    text-transform: uppercase;
+    color: white;
+}
+ol{
+    color: blue;
+    font-style: italic;
+}

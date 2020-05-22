@@ -1,0 +1,34 @@
+body{
+    background-color: blueviolet;
+}
+
+@media only screen and (min-width: 320px) { /* Umbral de cambio */
+	body {  /* elemento de cambio */
+        	background-color: pink; /* propiedad que cambia */
+    }
+}
+@media only screen and (min-width: 411px) { /* Umbral de cambio */
+	body {  /* elemento de cambio */
+        	background-color: yellowgreen; /* propiedad que cambia */
+    }
+}
+@media only screen and (min-width: 568px) { /* Umbral de cambio */
+	body {  /* elemento de cambio */
+        	background-color: grey; /* propiedad que cambia */
+    }
+}
+@media only screen and (min-width: 731px) { /* Umbral de cambio */
+	body {  /* elemento de cambio */
+        	background-color:purple; /* propiedad que cambia */
+    }
+}
+@media only screen and (min-width: 969px) { /* Umbral de cambio */
+	body {  /* elemento de cambio */
+        	background-color: orange; /* propiedad que cambia */
+    }
+}
+@media only screen and (min-width: 1200px) { /* Umbral de cambio */
+	body {  /* elemento de cambio */
+        	background-color: blue; /* propiedad que cambia */
+    }
+}

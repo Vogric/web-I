@@ -1,0 +1,39 @@
+body {
+    background: #234772;
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+}
+  
+h2 {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+  
+h4 {
+    color: white;
+}
+  
+ul {
+    color: white;
+}
+  
+#horarios {
+    font-size: 1.5em;
+    color: white;
+}
+         
+.titulo {
+     color: red;
+}
+
+p{
+    text-align: center;
+}
+IMG{
+    width: 200px; 
+    text-align: center;
+}

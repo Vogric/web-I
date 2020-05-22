@@ -1,0 +1,12 @@
+.div{
+    width: 100px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.cambio{
+    width: 100px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border: crimson 3px solid;
+}

@@ -1,0 +1,92 @@
+.container{
+    width: 700px;
+    height: auto;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+.pblack{
+    color:black;
+    font-weight: bold;
+}
+.header{
+    border-style: solid;
+    width: 100%;
+    height: 200px;
+    background-color: lightgray;
+    padding: 10px 10px 0px 25px;
+}
+.renglon1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.renglon2{
+    display: flex;
+    background-color: darkorchid;
+    width: 300px;
+}
+.menu1, .menu2, .logo {
+    border: 1px solid;
+    padding: 0px 10px 0px 10px;
+}
+.menu1{
+    background-color: green;
+    width: 30%;
+}
+.logo, .elem{
+    background-color: midnightblue;
+    width: 10%;
+}
+.menu2{
+    background-color: maroon;
+    width: 50%;
+}
+.content{
+    display: flex;
+    width: 700px;
+    height: 620px;
+}
+.izq, .der, .centro, .izq2, .der2{
+    margin-bottom: 10px;
+    height: 300px;
+    width: 1800px;
+}
+.izq{
+    background-color: black;
+    margin-right: 10px;
+}
+.centro{
+    background-color: turquoise;
+    margin-right: 10px;
+}
+.der{
+    background-color: orange;
+}
+.izq2{
+    margin-bottom: 10px;
+    background-color: rgb(47, 59, 26);
+    margin-right: 10px;
+    width: 64%;
+}
+.der2{    
+    background-color: red;
+    width: 500px;
+}
+.footer{
+    display: flex;
+    border-style: solid;
+    width: 100%;
+    height: 100px;
+    background-color: mediumturquoise;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 15px;
+    padding-bottom: 0;
+}
+.elem{
+    align-self: center;
+    margin-right: 10px;
+}

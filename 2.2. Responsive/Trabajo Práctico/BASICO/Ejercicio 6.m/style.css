@@ -1,0 +1,24 @@
+h1, h2{
+    font-family: fantasy;
+    color: burlywood;   
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 300px) { /* Umbral de cambio */
+	h1,h2 {  /* elemento de cambio */
+            
+        font-size: 2em; /* propiedad que cambia */
+    }
+}
+@media only screen and (min-width: 600px) { /* Umbral de cambio */
+	h1,h2 {  /* elemento de cambio */
+            
+        font-size: 5em; /* propiedad que cambia */
+    }
+}
+@media only screen and (min-width: 800px) { /* Umbral de cambio */
+	h1,h2 {  /* elemento de cambio */
+            
+        font-size: 8em; /* propiedad que cambia */
+    }
+}

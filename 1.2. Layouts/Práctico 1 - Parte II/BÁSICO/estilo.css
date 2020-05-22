@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    background-color: violet;
+    width: 500 px;
+    height: 600%;
+    margin: 2 px;
+    border-style: groove;
+    border: steelblue;
+    justify-content: space-between;
+}
+.div1{
+    background-color: thistle;
+    width: min-content;
+    padding: 200px;
+}
+.div4{
+    background-color: bisque;
+    height: 25%;
+    border-right: 3px dashed rosybrown;
+    border-bottom: 3px dashed rosybrown;
+}
+div{
+    background-color: chocolate;
+    border-color: darkcyan;
+    border-style: dashed;
+    border-bottom: slategrey;
+    padding: 0 40px 20% 0;
+}
+p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+}
