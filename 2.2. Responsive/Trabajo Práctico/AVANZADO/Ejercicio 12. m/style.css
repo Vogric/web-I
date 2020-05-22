@@ -1,0 +1,63 @@
+body{
+    height: 32rem;
+}
+.b, .c, .d, .e{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+    font-size: xx-large;
+}
+.a{
+    display: none;
+    background-color: wheat;
+}
+.b{
+    background-color: cadetblue;
+    height: 50%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+}
+.c{
+    background-color: cornflowerblue;
+    width: 50%;
+}
+.d{
+    background-color: darkmagenta;
+    width: 50%;
+}
+.e{
+    background-color: darkseagreen;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) { /* Umbral de cambio */
+    .a {  /* elemento de cambio */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: arial;
+        font-size: xx-large;
+        background-color: pink;
+        width: 33.33%;
+        height: 75%; /* propiedad que cambia */
+    }
+    .b{
+        width: 66.66%;
+        height: 75%;
+    }
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section{
+        width: 100%;
+        height: 25%;
+    }
+    .c, .e, .d{
+        width:33.33%;
+    }
+}
