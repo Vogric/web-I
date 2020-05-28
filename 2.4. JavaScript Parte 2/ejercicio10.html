@@ -5,13 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="ejercicio10.js"></script>
+    <link rel="stylesheet" href="ejercicio10.css">
 </head>
 <body>
-    
+    <article>
+        <h1>Titulo Noticia</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quod consequatur ad, unde est eum! Lorem ipsum dolor sit 
+            amet consectetur, adipisicing elit. Accusamus odit debitis asperiores amet voluptatem quod cum.
+        </p>
+    </article>
+    <form action="">
+        <label for="">Nombre y Apellido</label>
+        <input id="nombreYApellido" type="text">
+        <label for="comentario">Comentario</label>
+        <input id="comentario" type="text">
+        <button id="agregarComentario">Agregar comentario</button>
+    </form>
+    <h2>Comentarios: </h2>
+    <div class="comentarioConEstiloParticular" id="comentarios"></div>
 </body>
 <!-- Hacer un formulario que permita agregar
  comentarios debajo de una noticia 
- (sin guardarlos o enviarlos al servidor).  
+
+ (sin guardarlos o enviarlos al servidor).
+
  Aplicarle a los comentarios un estilo particular
   de manera que los diferencie del contenido de 
   la noticia. Los comentarios se tienen que poder

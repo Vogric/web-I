@@ -2,19 +2,25 @@ document.addEventListener("DOMContentLoaded", iniciarPagina);
 //NO FUNCIONA*/
 function iniciarPagina(){
     "use strict";
-    let boton = document.querySelector("#btn");
-    boton.addEventListener("click", function(){
-        let div = document.querySelector("#div");
-        div.classList.add("change");
-        for (let indice= 0; indice < 10; indice++){
-            let timer = setTimeout(change(indice), 5000);
-            function change(indice){
-                document.querySelector(".change").style.background = "#00000" + indice;
-                indice++;
-                console.log(indice);
-            }
-        }
-    }
+    setInterval(function(){ 
+        // toggle the class every five second
+        $('#div').toggleClass('change1');  
+        setTimeout(function(){
+          // toggle back after 1 second
+          $('#div').toggleClass('change1');  
+        },1000)
 
-    );
+        $('#div').toggleClass('change2');  
+        setTimeout(function(){
+          // toggle back after 1 second
+          $('#div').toggleClass('change2');  
+        },1000)
+
+        $('#div').toggleClass('change3');  
+        setTimeout(function(){
+          // toggle back after 1 second
+          $('#div').toggleClass('change3');  
+        },1000)
+     
+     },5000);
 }

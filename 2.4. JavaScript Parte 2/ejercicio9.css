@@ -2,7 +2,16 @@
     width: 50vh;
     height: 50vh;
     border: 1vh solid grey;
+    background-color: white;
 }
-.change{
+.change1{
+    background: #000000;
+}
+
+.change2{
+    background: #000000;
+}
+
+.change3{
     background: #000000;
 }
