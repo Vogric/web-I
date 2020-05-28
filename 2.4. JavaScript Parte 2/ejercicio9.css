@@ -1,0 +1,8 @@
+.apariencia{
+    width: 50vh;
+    height: 50vh;
+    border: 1vh solid grey;
+}
+.change{
+    background: #000000;
+}
