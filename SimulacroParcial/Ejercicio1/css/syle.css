@@ -1,0 +1,95 @@
+/* ARTICLE LIONEL MESSI */
+
+.lionel-messi{
+    border: 0.0625rem solid black;
+    margin: 4.375rem 0.625rem 0rem 0.625rem;
+}
+
+.lionel-messi:hover {
+    background-color: rgb(223, 222, 222);
+  }
+
+
+  /* HEADER---------------------------------- */
+
+h1, h2 {
+    font-family: Verdana;
+    color: green;
+    }
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* DIV FOTO E INFORMACION----------------------- */
+
+.foto-info{
+    border: 0.0625rem solid black;
+}
+
+figure{
+    margin: 0;
+}
+
+.bandera-argentina{
+    width: 23%;
+}
+
+.bandera-argentina img{
+    width: 100%;
+}
+
+.imagen-jugador img{
+    border: 2px solid black;
+    width: 99%;
+}
+
+
+/* SECCION POSICION EN LA CANCHA----------------------- */
+
+section {
+    text-align: center;
+}
+
+
+/* MEDIA QUERY TABLET-----------------------------------*/
+
+
+@media only screen and (min-width: 612px) {
+
+ /* HEADER---------------------------------- */
+
+ header{
+    justify-content: space-between;
+    margin: 0rem 1.25rem 0rem 1.25rem;
+}
+
+    h1, h2{
+        font-size: 2.5rem;
+    }
+
+/* DIV FOTO E INFORMACION----------------------- */
+
+
+.foto-info{
+    display: flex;
+    }
+
+  
+    .bandera-argentina{
+        width: 14%;
+    }
+
+    .imagen-jugador{
+        width: 50%;
+    }
+
+
+/* LISTA CON INFORMACION------------------------------- */
+
+    ul{
+        font-size: 1.625rem;
+        margin: 4.875rem 1.25rem 1.25rem 2.5625rem;
+    }
+}
