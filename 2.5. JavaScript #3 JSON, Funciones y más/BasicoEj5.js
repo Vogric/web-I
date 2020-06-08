@@ -41,4 +41,10 @@ function StartPage(){
          tbody.appendChild(tr);
      })
 
+     let botonInsertarEquipo = document.querySelector("#js-btn-instertar-equipo");
+     botonInsertarEquipo.addEventListener("click", () => {
+         
+     })
+
+
 }
