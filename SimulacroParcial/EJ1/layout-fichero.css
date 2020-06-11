@@ -1,0 +1,78 @@
+figure{
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*...............FICHERO GENERAL..............*/
+
+.fichero{
+    margin-top: 7vh;
+    border: 2px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    height: 50%;
+}
+.fichero:hover{
+    background-color: lightgray;
+}
+.fichero h1, .fichero h2{
+    color: green;
+}
+.fichero h1{
+    font-weight: lighter;
+}
+
+/*...............HEADER FICHERO..............*/
+
+.header-fichero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+}
+.header-fichero img{
+    width: 3rem;
+}
+
+/*...............MAIN FICHERO..............*/
+
+.main-fichero figure{
+    width: 100%;
+}
+.main-fichero img{
+    width: 99%;
+    border: 2px solid grey;
+}
+.main-fichero span {
+    font-weight: bold;
+}
+/*...............FOOTER FICHERO..............*/
+
+.footer-fichero{
+    border-top: 2px solid grey;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media only screen and (min-width: 450px)  {
+
+/*...............MAIN FICHERO..............*/
+
+.main-fichero{
+    display: flex;
+    align-items: center;
+}
+
+.main-fichero figure{
+    width: 50%;
+}
+/*...............HEADER FICHERO..............*/
+
+.header-fichero{
+    border-bottom: 2px solid grey;
+}
+
+}
