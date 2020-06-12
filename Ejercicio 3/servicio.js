@@ -16,7 +16,7 @@ function StartPage(){
                     },
         ]
     }
-    /*....................funciones...........................*/
+    //........funciones............
     function ObtenerCochera(carpa){
         for(let i = 0; i < reservas.pedidos.length; i++){
             if(reservas.pedidos[i].carpa === carpa){
@@ -25,7 +25,7 @@ function StartPage(){
         }
     }
     function AgregarPedido(){
-        let pedido = CrearPedido(reservas);
+        let pedido = CrearPedido();
         reservas.pedidos.push(pedido);
     }
     function CrearPedido(){
@@ -36,7 +36,7 @@ function StartPage(){
         }
         return item;
     }
-    /*....................START.....................*/ 
-    ObtenerCochera(24);
+    //...START........
+    ObtenerCochera(25);
     AgregarPedido();
 }
